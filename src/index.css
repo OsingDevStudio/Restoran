@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Tambahkan kodingan ini di bawahnya */
+@theme {
+  --animate-slide-up: slide-up 0.3s ease-out;
+
+  @keyframes slide-up {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+}
