@@ -22,5 +22,5 @@ export const MINUMAN_DATA = [
     image: "/images/es matcha.png",
     category: "Minuman",
     description: "Minuman segar pelepas dahaga."
-  }
+   }
 ];
